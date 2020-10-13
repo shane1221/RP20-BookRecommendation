@@ -90,6 +90,7 @@ The checkpoints folder under the models folder --- saves the checkpoints model f
 7.The user feature matrix is trained and saved locally:
      Same method as 6;
      users_matrics.p ---The trained user feature matrix is saved locally
+     
 ----------------------------------------------------------------------------------------------------------------
 
 booksRating.pyBook rating prediction:
@@ -99,6 +100,7 @@ The model file in the models folder is used for prediction
 1.Do matrix multiplication of user characteristics and book characteristics to get predicted scores;
 
 2.Regress the predicted score with the real score, and use MSE to optimize the loss. Because this is essentially a regression problem;
+
 ----------------------------------------------------------------------------------------------------------------
 
 
